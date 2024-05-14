@@ -1,4 +1,4 @@
-module "tf-module" {
+module "alb" {
   source                 = "./vendor/modules/alb"
   VPC_CIDR               = var.VPC_CIDR
   PUBLIC_SUBNET_CIDR     = var.PUBLIC_SUBNET_CIDR
