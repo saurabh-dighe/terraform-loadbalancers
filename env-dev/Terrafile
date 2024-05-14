@@ -1,0 +1,3 @@
+vpc:
+    source:  "https://github.com/saurabh-dighe/tf-module-lb.git"
+    version: "main"
