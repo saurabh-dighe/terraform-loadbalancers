@@ -13,8 +13,8 @@ output "PUBLIC_ALB_ADDRESS" {
 
 #Listener Outputs
 output "PRIVATE_LISTENER_ARN" {
-  value = aws_lb_listener.alb-private.PRIVATE_LISTENER_ARN
+  value = module.alb-private.PRIVATE_LISTENER_ARN
 }
 output "PUBLIC_LISTENER_ARN" {
-  value = aws_lb_listener.alb-public.PUBLIC_LISTENER_ARN
+  value = module.alb-public.PUBLIC_LISTENER_ARN
 }
